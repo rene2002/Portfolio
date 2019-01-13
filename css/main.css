@@ -669,6 +669,12 @@ header a.grt-logo img {
   }
 }
 
+@media only screen and (max-width: 575px) {
+  .about_exp .exp-wp {
+    padding: 0 20px;
+  }
+}
+
 .about_exp .exp-wp:before, .about_exp .exp-wp:after {
   content: " ";
   display: table;
