@@ -426,6 +426,26 @@ header a.grt-logo img {
   }
 }
 
+.highlight_work a.workbox .work_prod05 {
+  width: 235px;
+  height: 387px;
+  background: url(../images/index-work05.png) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  right: -16px;
+  bottom: -40px;
+  transition: all 0.4s ease;
+}
+
+@media only screen and (max-width: 575px) {
+  .highlight_work a.workbox .work_prod05 {
+    width: 160px;
+    height: 263px;
+    right: 24px;
+    bottom: -50px;
+  }
+}
+
 .highlight_work a.workbox:hover {
   box-shadow: 0 10px 20px #c7cad1;
   transform: translate(0, -5px);
